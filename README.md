@@ -23,6 +23,9 @@ The system will generate output file in the result folder and output file name R
 
 I have writtend test cases using mocha
 
+## Logging
+I have used winston logging, and logging all the excetpions.
+
 ## Questions or Suggestions
 Feel free to send me the questions or suggestion at my email address.
 aftab.rehman@outlook.com
