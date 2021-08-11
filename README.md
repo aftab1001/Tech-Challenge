@@ -18,6 +18,10 @@ The ```package.json``` contains the main script to run the whole program: In Pac
 ## OutPut
 The system will generate output file in the result folder and output file name Result.txt . You can change the output file name from Constant.js
 
+## Unit Testing
+
+I have writtend test cases using mocha
+
 ## Questions or Suggestions
 Feel free to send me the questions or suggestion at my email address.
 aftab.rehman@outlook.com
