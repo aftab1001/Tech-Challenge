@@ -1,6 +1,6 @@
-const path = require('path');
-var winston = require('winston');
-const constants = require('../constants/constant');
+const path = require("path");
+var winston = require("winston");
+const constants = require("../constants/constant");
 const appDir = path.dirname(require.main.filename);
 var winston = winston.createLogger({
   transports: [
@@ -8,7 +8,7 @@ var winston = winston.createLogger({
     new winston.transports.File({
       filename: path.join(
         appDir,
-        constants.OutPutDirectoryName,
+        `../${constants.ParentDirectory}/`,
         constants.LogFile
       ),
     }),

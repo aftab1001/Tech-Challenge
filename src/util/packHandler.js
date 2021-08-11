@@ -8,7 +8,7 @@ const pack = async (fileName) => {
   const packagesData = [];
   const capacityData = [];
   const data = await readFile(
-    path.join(appDir, constants.Directory_Name, fileName),
+    path.join(appDir, constants.ParentDirectory, fileName),
     (data) => {
       try {
         const lines = data.split("\n");
@@ -53,7 +53,14 @@ const getSinglePackageData = (currentLine, numberOfItems) => {
 const writeOutPutToFile = async (fileName, data) => {
   try {
     __logger.info(`Output ${data}`);
-    await writeFile(path.join(appDir, "result", fileName), data);
+    await writeFile(
+      path.join(
+        appDir,
+        `${constants.ParentDirectory}/`,
+        fileName
+      ),
+      data
+    );
   } catch (e) {
     __logger.error(`${constants.ErrorOcurred} ${err.message}`);
   }

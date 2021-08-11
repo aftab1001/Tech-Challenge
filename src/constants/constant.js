@@ -1,8 +1,7 @@
 module.exports = Object.freeze({
   Max_Weight: 100,
   Max_Items: 15,
-  Directory_Name: `testCases`,
-  OutPutDirectoryName: `result`,
+  ParentDirectory: `resources`,
   Encoding: `utf8`,
   OutputFileName: `Result.txt`,
   LogFile: `logfile.log`,
