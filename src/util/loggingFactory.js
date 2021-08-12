@@ -8,7 +8,7 @@ var winston = winston.createLogger({
     new winston.transports.File({
       filename: path.join(
         appDir,
-        `../${constants.ParentDirectory}/`,
+        constants.ParentDirectory,
         constants.LogFile
       ),
     }),

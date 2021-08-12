@@ -56,7 +56,7 @@ const writeOutPutToFile = async (fileName, data) => {
     await writeFile(
       path.join(
         appDir,
-        `${constants.ParentDirectory}/`,
+        constants.ParentDirectory,
         fileName
       ),
       data
