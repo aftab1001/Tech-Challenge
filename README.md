@@ -9,7 +9,7 @@ Use a node js environment to run this project.
 npm install
 npm run start
 ```
-The ```package.json``` contains the main script to run the whole program: In Package.json change the name of file if you want to do the testing with a different File. Also place the file in the testCases Directory. You can also change the directory Name from constants class.
+The ```package.json``` contains the main script to run the whole program: In Package.json change the name of file if you want to do the testing with a different File. Also place the file in the resources Directory. You can also change the directory Name from constants class.
 ```
 "scripts": {
    "start": "node src/index.js test00.txt"
@@ -17,7 +17,7 @@ The ```package.json``` contains the main script to run the whole program: In Pac
 ```
 
 ## OutPut
-The system will generate output file in the result folder and output file name Result.txt . You can change the output file name from Constant.js
+The system will generate output file in the resources folder and output file name Result.txt . You can change the output file name from Constant.js
 
 ## Unit Testing
 
